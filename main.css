@@ -1,0 +1,55 @@
+html {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 0 auto;
+  background-color: rgb(77, 77, 80);
+  overflow: hidden;
+}
+p {
+  position: relative;
+  left: 200px;
+  top: 330px;
+}
+.container {
+  margin-top: 5rem;
+}
+#gameBoard {
+  position: relative;
+  margin: 70px 0 0 110px;
+  width: 300px;
+}
+.gameBoy {
+  position: absolute;
+  margin-top: -180px;
+  margin-left: -688px;
+  width: 1050px;
+  height: 1100px;
+}
+.titulo {
+  font-size: 3rem;
+  margin-top: 3rem 0 0 0;
+  text-align: center;
+}
+
+button {
+  position: absolute;
+  font-size: 1.6rem;
+  border: none;
+  cursor: pointer;
+  background: none;
+  margin: -130px 10px 0 -35px;
+}
+.counterText {
+  position: fixed;
+  font-weight: 700;
+  margin: -50px 0 0 190px;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  color: black;
+  text-align: left;
+}
